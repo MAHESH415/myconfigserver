@@ -1,0 +1,5 @@
+package com.sathya.config.swagger;
+
+public class SwaggerConfig {
+
+}

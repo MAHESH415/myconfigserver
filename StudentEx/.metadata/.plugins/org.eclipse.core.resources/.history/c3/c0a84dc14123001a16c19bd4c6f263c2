@@ -1,0 +1,8 @@
+package com.sathya.data;
+
+import org.apache.tomcat.jni.Address;
+import org.springframework.data.repository.CrudRepository;
+
+public interface AddressRepository  extends CrudRepository< Address, Integer> {
+
+}

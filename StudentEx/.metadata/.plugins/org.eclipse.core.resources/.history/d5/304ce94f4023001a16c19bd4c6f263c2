@@ -1,0 +1,18 @@
+package com.sathya.service;
+
+import com.sathya.entities.Address;
+
+public interface IAddressService {
+
+	
+	public Address insertStudents(Address address);
+	
+	
+	public Iterable<Address> getAllStudents() ;
+	
+	public Address updateStudent(Address address);
+	
+	public void deleteById(Integer id);
+	
+	
+}

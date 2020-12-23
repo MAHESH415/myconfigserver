@@ -1,0 +1,15 @@
+package com.sathya.entities;
+
+public class Address {
+
+	
+	private Integer houseNo;
+	
+	private String City;
+	
+	private String country;
+
+	
+	
+	
+}

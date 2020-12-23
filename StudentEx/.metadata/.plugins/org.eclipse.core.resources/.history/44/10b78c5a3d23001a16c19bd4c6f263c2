@@ -1,0 +1,13 @@
+package com.sathya.entities;
+
+public class Student {
+
+	
+	private Integer stId;
+	
+	private String stName;
+	
+	private Double stFee;
+	
+	
+}

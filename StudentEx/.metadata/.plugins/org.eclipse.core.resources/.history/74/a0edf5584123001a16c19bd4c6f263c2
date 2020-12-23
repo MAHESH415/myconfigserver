@@ -1,0 +1,21 @@
+package com.sathya.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.sathya.data.AddressRepository;
+import com.sathya.data.StudentRepository;
+import com.sathya.entities.Address;
+import com.sathya.entities.Student;
+import com.sathya.service.IAddresService;
+import com.sathya.service.IAddressService;
+import com.sathya.service.IStudentService;
+
+@Service
+public class AddressServiceImpl  implements IAddresService{
+
+	@Autowired
+	private AddressRepository  addressRepository;
+
+	
+}

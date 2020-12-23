@@ -1,0 +1,41 @@
+package com.sathya.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.sathya.data.AddressRepository;
+import com.sathya.data.StudentRepository;
+import com.sathya.entities.Address;
+import com.sathya.entities.Student;
+import com.sathya.service.IAddressService;
+import com.sathya.service.IStudentService;
+
+@Service
+public class AddressServiceImpl  implements IAddressService{
+
+	@Autowired
+	private AddressRepository  addressRepository;
+
+	@Override
+	public Address insertaddress(Address address) {
+		return null;
+	}
+
+	@Override
+	public Iterable<Address> getAllAddress() {
+		return null;
+	}
+
+	@Override
+	public Address updateAddress(Address address) {
+		return null;
+	}
+
+	@Override
+	public void deleteById(Integer id) {
+		
+	}
+
+	
+	
+}
